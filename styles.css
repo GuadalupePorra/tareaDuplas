@@ -1,0 +1,68 @@
+header{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.navbar-blur {
+  background-color: rgba(0, 0, 0, 0.8); 
+  backdrop-filter: blur(20px);
+}
+.nav-link-home{
+  color: rgb(10, 168, 10);
+}
+.nav-link:hover {
+  color: rgb(10, 168, 10);
+}
+
+.carousel_slide {
+    max-height: 70vh; /* ajusta la altura del carousel */
+    margin:auto; /* agrega un margen para centrar el carousel */
+  }
+  
+.carousel-inner img{
+    height: 70vh;
+    object-fit: cover;
+}
+
+.cards{
+  padding: 2rem;
+}
+
+.card-text
+{
+  color: grey;
+  font-size: small;
+}
+
+.hab{
+  font-size: 15px;
+}
+
+.btn{
+  background-color:  rgb(10, 168, 10);
+  color:white;
+}
+
+.btn:hover{
+  background-color: black;
+  color:  rgb(10, 168, 10);;
+}
+
+#contacto{
+  padding: 2rem ;
+}
+#contacto form {
+  width: 25rem;
+  color: white;
+  background-color: #000; /* Fondo negro */
+  padding: 2rem; /* Espacio entre el contenido y el borde */
+  text-align: center; /* Centrar el contenido */
+}
+footer{
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
+.copy{
+  text-align: center;
+}
